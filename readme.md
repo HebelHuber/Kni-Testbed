@@ -7,6 +7,8 @@
 
 - show progress for wasm loading [link](https://chat.deepseek.com/a/chat/s/10e63fc3-86d8-4a81-b3ff-d8274b4c20b7)
 - direct file loading instead of using the content pipeline [link](https://chat.deepseek.com/a/chat/s/ab15291a-3d91-4d5c-bc32-6f5e9ec0be09)
+  - needs work on wasm
+- GUI (imgui/iguina)
 - compiling shaders at runtime from file
 - deferred rendering with decals [link](https://chat.deepseek.com/a/chat/s/dcb2e4c3-3286-4cf1-a2f3-841c633f2dec)
   - [Deferred Engine playground](https://community.monogame.net/t/deferred-engine-playground-download/8180)
