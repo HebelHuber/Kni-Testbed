@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kniTest.Android", "kniTest.Android\kniTest.Android.csproj", "{D4CCF211-5343-4B18-A223-DE1EA63C5815}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kniTest.BlazorGL", "kniTest.BlazorGL\kniTest.BlazorGL.csproj", "{BDCB704A-108D-468D-B61A-5E2B31BEF2C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kniTest.DesktopGL", "kniTest.DesktopGL\kniTest.DesktopGL.csproj", "{23040E6A-0D3B-4C42-A1AD-878B2896E960}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "kniTest.Shared", "kniTest.Shared\kniTest.Shared.shproj", "{BE60C786-F24A-4618-8F8F-B9FEB3A2D1AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kniTest.WindowsDX", "kniTest.WindowsDX\kniTest.WindowsDX.csproj", "{D9020A20-9360-4165-A684-7FB5A0356F94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4CCF211-5343-4B18-A223-DE1EA63C5815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4CCF211-5343-4B18-A223-DE1EA63C5815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4CCF211-5343-4B18-A223-DE1EA63C5815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4CCF211-5343-4B18-A223-DE1EA63C5815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDCB704A-108D-468D-B61A-5E2B31BEF2C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDCB704A-108D-468D-B61A-5E2B31BEF2C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDCB704A-108D-468D-B61A-5E2B31BEF2C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDCB704A-108D-468D-B61A-5E2B31BEF2C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23040E6A-0D3B-4C42-A1AD-878B2896E960}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23040E6A-0D3B-4C42-A1AD-878B2896E960}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23040E6A-0D3B-4C42-A1AD-878B2896E960}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23040E6A-0D3B-4C42-A1AD-878B2896E960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9020A20-9360-4165-A684-7FB5A0356F94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9020A20-9360-4165-A684-7FB5A0356F94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9020A20-9360-4165-A684-7FB5A0356F94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9020A20-9360-4165-A684-7FB5A0356F94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
