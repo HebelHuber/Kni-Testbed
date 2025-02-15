@@ -8,7 +8,7 @@
 - show progress for wasm loading [link](https://chat.deepseek.com/a/chat/s/10e63fc3-86d8-4a81-b3ff-d8274b4c20b7)
 - direct file loading instead of using the content pipeline [link](https://chat.deepseek.com/a/chat/s/ab15291a-3d91-4d5c-bc32-6f5e9ec0be09)
   - needs work on wasm
-  - endgoal is to avoid using kni installer
+  - endgoal is to avoid using kni installer since it installs only content pipeline tools and vs templates
 - GUI (imgui/iguina)
 - compiling shaders at runtime from file
   - claude: Loading GLSL Shaders at Runtime in MonoGame
