@@ -20,3 +20,5 @@
 - [Realtime edge damage masking](https://www.artstation.com/blogs/jjg/B2Dd/real-time-edge-damage-masking)
 - deferred rendering with shadows
 - add a physics engine
+  - 2d https://github.com/nkast/Aether.Physics2D
+  - 3d https://digitalrune.github.io/DigitalRune-Documentation/html/79a8677d-9460-4118-b27b-cef353dfbd92.htm
