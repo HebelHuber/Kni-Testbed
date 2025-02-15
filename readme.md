@@ -10,7 +10,7 @@
   - needs work on wasm
 - GUI (imgui/iguina)
 - compiling shaders at runtime from file
-- claude: Loading GLSL Shaders at Runtime in MonoGame
+  - claude: Loading GLSL Shaders at Runtime in MonoGame
 - deferred rendering with decals [link](https://chat.deepseek.com/a/chat/s/dcb2e4c3-3286-4cf1-a2f3-841c633f2dec)
   - [Deferred Engine playground](https://community.monogame.net/t/deferred-engine-playground-download/8180)
   - [DeferredEngine](https://github.com/Kosmonaut3d/DeferredEngine)
@@ -19,3 +19,4 @@
 - Fitting pixel art buffer to [screen](https://community.monogame.net/t/fitting-pixel-art-game-to-screen/17043)
 - [Realtime edge damage masking](https://www.artstation.com/blogs/jjg/B2Dd/real-time-edge-damage-masking)
 - deferred rendering with shadows
+- add a physics engine
