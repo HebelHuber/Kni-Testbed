@@ -13,9 +13,9 @@
   - runtime loading from files is for development. eventually all assets should be embedded (as it will be mainly textures, from file should also be fine)
 - GUI
   - imgui
-  - iguina
-  - apos https://github.com/Apostolique/Apos.Gui
-  - with a functioning GUI, add an [Inspector] attribute that adds marked fields to a debug inspector ingame. might need reflection, check for wasm
+  - iguina [link](https://github.com/RonenNess/Iguina?tab=readme-ov-file#introduction)
+  - apos [link](https://github.com/Apostolique/Apos.Gui)
+  - with a functioning GUI, add an `[Inspector]` attribute that adds marked fields to a debug inspector ingame. might need reflection, check for wasm. or maybe write a code generator that generates the inspector code
 - compiling shaders at runtime from file
   - claude: Loading GLSL Shaders at Runtime in MonoGame
 - deferred rendering with decals [link](https://chat.deepseek.com/a/chat/s/dcb2e4c3-3286-4cf1-a2f3-841c633f2dec)
