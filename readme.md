@@ -9,7 +9,11 @@
 - direct file loading instead of using the content pipeline [link](https://chat.deepseek.com/a/chat/s/ab15291a-3d91-4d5c-bc32-6f5e9ec0be09)
   - needs work on wasm
   - endgoal is to avoid using kni installer since it installs only content pipeline tools and vs templates
-- GUI (imgui/iguina)
+  - meshes should be described in code using generators
+- GUI
+  - imgui
+  - iguina
+  - apos https://github.com/Apostolique/Apos.Gui
 - compiling shaders at runtime from file
   - claude: Loading GLSL Shaders at Runtime in MonoGame
 - deferred rendering with decals [link](https://chat.deepseek.com/a/chat/s/dcb2e4c3-3286-4cf1-a2f3-841c633f2dec)
