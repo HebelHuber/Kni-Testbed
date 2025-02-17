@@ -10,6 +10,7 @@
   - needs work on wasm
   - endgoal is to avoid using kni installer since it installs only content pipeline tools and vs templates
   - meshes should be described in code using generators
+  - runtime loading from files is for development. eventually all assets should be embedded (as it will be mainly textures, from file should also be fine)
 - GUI
   - imgui
   - iguina
