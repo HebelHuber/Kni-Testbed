@@ -9,6 +9,7 @@
         <Import_RootNamespace>kniTest</Import_RootNamespace>
     </PropertyGroup>
     <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)ContentManager.cs" />
         <Compile Include="$(MSBuildThisFileDirectory)KniGame.cs"/>
         <Compile Include="$(MSBuildThisFileDirectory)KniGame.static.texture.cs"/>
     </ItemGroup>

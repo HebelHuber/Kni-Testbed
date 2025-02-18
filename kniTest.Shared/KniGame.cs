@@ -10,7 +10,7 @@ namespace kniTest;
 /// </summary>
 public partial class KniGame : Game
 {
-    private Texture2D _cubes;
+    private ContentManager _cm;
     private readonly GraphicsDeviceManager _graphics;
     private SpriteBatch _spriteBatch;
 
@@ -53,10 +53,10 @@ public partial class KniGame : Game
         _spriteBatch = new SpriteBatch(GraphicsDevice);
 
         // TODO: Use this.Content to load your game content here
-        // _cubes = Content.Load<Texture2D>("cubes");
+        _cm = ContentManager.LoadContent(this);
 
         // Load texture from file
-        _cubes = LoadTexture("Content/cubes.png", GraphicsDevice);
+        // _cubes = LoadTexture("Content/cubes.png", GraphicsDevice);
     }
 
     /// <summary>
@@ -66,7 +66,7 @@ public partial class KniGame : Game
     protected override void UnloadContent()
     {
         // TODO: Unload any non ContentManager content here
-        _cubes.Dispose();
+        _cm.Dispose();
     }
 
     /// <summary>
@@ -108,8 +108,8 @@ public partial class KniGame : Game
         // TODO: Add your drawing code here
         _spriteBatch.Begin();
 
-        var boundsSize = new Point(_cubes.Bounds.Width / 2, _cubes.Bounds.Height / 2);
-        _spriteBatch.Draw(_cubes, new Rectangle(new Point(50, 50), boundsSize), Color.White);
+        var boundsSize = new Point(_cm.Cubes.Bounds.Width / 2, _cm.Cubes.Bounds.Height / 2);
+        _spriteBatch.Draw(_cm.Cubes, new Rectangle(new Point(50, 50), boundsSize), Color.White);
         _spriteBatch.End();
 
         base.Draw(gameTime);

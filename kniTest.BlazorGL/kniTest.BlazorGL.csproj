@@ -40,7 +40,7 @@
         <PackageReference Include="nkast.Xna.Framework.Storage" Version="4.0.9001"/>
         <PackageReference Include="nkast.Xna.Framework.XR" Version="4.0.9001"/>
         <PackageReference Include="nkast.Kni.Platform.Blazor.GL" Version="4.0.9001.1"/>
-        <!--        <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="4.0.9001"/>-->
+                <PackageReference Include="nkast.Xna.Framework.Content.Pipeline.Builder" Version="4.0.9001"/>
     </ItemGroup>
 
     <ItemGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
@@ -49,17 +49,17 @@
     </ItemGroup>
 
     <ItemGroup>
-        <!--        <KniContentReference Include="..\kniTestContent\kniTestContent.mgcb">-->
-        <!--            <Link>Content\kniTestContent.mgcb</Link>-->
-        <!--        </KniContentReference>-->
+                <KniContentReference Include="..\kniTestContent\kniTestContent.mgcb">
+                    <Link>Content\kniTestContent.mgcb</Link>
+                </KniContentReference>
         <!--        <KniContentReference Include="..\kniTestContent\*.*">-->
         <!--            <Link>Content\%(Filename)%(Extension)</Link>-->
         <!--        </KniContentReference>-->
-        <Content
-                Include="..\kniTestContent\*.*"
-                CopyToOutputDirectory="Always"
-                TargetPath="wwwroot\Content\%(Filename)%(Extension)"
-        />
+<!--        <Content-->
+<!--                Include="..\kniTestContent\*.*"-->
+<!--                CopyToOutputDirectory="Always"-->
+<!--                TargetPath="wwwroot\Content\%(Filename)%(Extension)"-->
+<!--        />-->
     </ItemGroup>
 
     <ItemGroup>
