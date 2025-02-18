@@ -3,7 +3,7 @@
 - Use the [installer](https://github.com/kniEngine/kni/releases/download/v4.0.9001/KniSdkSetup4.0.9001.exe) to install KniSdk 4.0.9001
 - Clone this repo
 
-## [Sampe](https://hebelhuber.github.io/Kni-Testbed/browser-publish-release/wwwroot/)
+## Current sample on [Github Pages](https://hebelhuber.github.io/Kni-Testbed/)
 
 ## ToDo
 
